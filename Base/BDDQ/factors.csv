@@ -1,0 +1,10 @@
+id_factor,id_dim,name,description
+Exact_sint_F1,Exact_D1,Exactitud sintáctica,Evalúa si un dato está correctamente escrito.
+Exact_sem_F2,Exact_D1,Exactitud semántica,Evalúa si un dato es real.
+Comp_dens_F3,Comp_D2,Densidad,Evalúa cuánta información tengo y cuanta me falta en el SI.
+Comp_cob_F4,Comp_D2,Cobertura,Mide la porción de los datos de la realidad contenidos en el SI.
+Cons_dom_F5,Cons_D3,Integridad de dominio,Satisfacción de reglas sobre el contenido de un atributo.
+Cons_intra_F6,Cons_D3,Integridad intra-relación,Satisfacción de reglas entre atributos de una misma tabla.
+Cons_inter_F7,Cons_D3,Inter-relación,Satisfacción de reglas entre atributos de varias tablas.
+Unic_ndup_F8,Unic_D4,No-Duplicación,Evalúa si la misma entidad aparece repetida en forma exacta.
+Unic_ncon_F9,Unic_D4,No-contradicción,Evalúa si la misma entidad aparece repetida con contradicciones.

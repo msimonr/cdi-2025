@@ -1,0 +1,9 @@
+id_metric,id_factor,name,description,granularity,domain
+M1,Exact_sint_F1,ExactSintáctica-Bool,Mide si un dato está escrito correctamente.,Celda,Boolean
+M2,Exact_sem_F2,ExactSemántica-Bool,Mide si un dato existe en la realidad.,Celda,Boolean
+M3,Comp_dens_F3,CompDensidad_CamposIdentificadores,Mide el grado de densidad de una tupla.,Tupla,"[0,1]"
+M6,Cons_inter_F7,ConsInterRelacion-ISBNRatings,Satisfacción de reglas entre atributos de varias tablas.,Columna,"[0,1]"
+M8,Unic_ndup_F8,UnicNoDuplicidad-Libros,Mide el porcentaje de libros que no están duplicados.,Tabla,"[0,1]"
+M7,Unic_ncon_F9,UnicNoContradiccion-Libros,Mide el porcentaje de libros que no tienen datos contradictorios.,Tabla,"[0,1]"
+M5,Cons_intra_F6,ConsIntraRelacion-Libros,"Mide la consistencia de libros en la tabla, donde Title, Author, Publisher y Publish_Date corresponden a un único ISBN.",Tupla,Boolean
+M4,Comp_cob_F4,CompCobertura_Top100,Mide el grado de densidad de una tupla.,Tabla,"[0,1]"

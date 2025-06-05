@@ -1,0 +1,5 @@
+id_dim,name,description
+Exact_D1,Exactitud,Evalúa si un dato es correcto.
+Comp_D2,Completitud,Indica si el SI contiene toda la información de interés.
+Cons_D3,Consistencia,Captura la satisfacción de reglas semánticas definidas sobre los datos.
+Unic_D4,Unicidad,Indica el nivel de duplicación o contradicción entre los datos.
