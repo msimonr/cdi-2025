@@ -3,7 +3,7 @@ import random
 import time
 
 API = "https://www.googleapis.com/books/v1/volumes?q=isbn:"
-API_KEY = "AIzaSyBMTcWPXz0ZA7dzjcwjtfbo0x6YqhkhrQw"
+API_KEY = ""
 
 def libro_existe(isbn):
     resp = requests.get(API+str(isbn)+"&key="+API_KEY)
